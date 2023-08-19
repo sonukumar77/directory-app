@@ -20,11 +20,15 @@ table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  border: 1px solid var(--primary);
   text-align: left;
   padding: 8px;
 }
 
+th {
+  background-color: var(--primary);
+  color: var(--light);
+}
 tr:nth-child(even) {
   background-color: #dddddd;
 }
