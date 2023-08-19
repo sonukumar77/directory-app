@@ -125,6 +125,7 @@ const Add = () => {
               <tr>
                 <td>
                   <input
+                    className="input"
                     type="text"
                     value={personData.name}
                     onChange={(e) => handleInputData(e, "name")}
@@ -132,6 +133,7 @@ const Add = () => {
                 </td>
                 <td>
                   <input
+                    className="input"
                     type="date"
                     value={personData.dateOfBirth}
                     onChange={(e) => handleInputData(e, "dateOfBirth")}
@@ -139,6 +141,7 @@ const Add = () => {
                 </td>
                 <td>
                   <input
+                    className="input"
                     type="number"
                     value={personData.aadharNumber}
                     onChange={(e) => handleInputData(e, "aadharNumber")}
@@ -146,6 +149,7 @@ const Add = () => {
                 </td>
                 <td>
                   <input
+                    className="input"
                     type="number"
                     value={personData.mobileNumber}
                     onChange={(e) => handleInputData(e, "mobileNumber")}
