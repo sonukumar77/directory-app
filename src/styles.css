@@ -19,3 +19,14 @@ body {
   background-color: var(--primary);
   color: var(--light);
 }
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.input {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
